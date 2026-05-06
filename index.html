@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Membership Forms</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<form id="membership-form">
+		<h2>Membership Registration</h2>
+		<div class="form-group">
+			<label for="first-name">First Name:</label>
+			<input type="text" id="first-name" name="first-name" required>
+		</div>
+		<div class="form-group">
+			<label for="last-name">Last Name:</label>
+			<input type="text" id="last-name" name="last-name" required>
+		</div>
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+		</div>
+		<div class="form-group">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+		</div>
+		<div class="form-group">
+			<label>Membership Type:</label>
+			<input type="radio" id="basic" name="membership-type" value="basic" required>
+			<label for="basic">Basic</label>
+			<input type="radio" id="premium" name="membership-type" value="premium">
+			<label for="premium">Premium</label>
+			<input type="radio" id="vip" name="membership-type" value="vip">
+			<label for="vip">VIP</label>
+		</div>
+		<button type="submit">Register</button>
+	</form>
+</body>
+</html>
